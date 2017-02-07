@@ -303,7 +303,7 @@ THE SOFTWARE.
                 <name>build.version</name>
                 <value>${project.version}</value>
                 <regex>-SNAPSHOT</regex>
-                <replacement>-SNAPSHOT (${build.type}-${now}-${user.name})</replacement>
+                <replacement>-SNAPSHOT (sampleType-${now}-sampleName)</replacement>
                 <failIfNoMatch>false</failIfNoMatch>
               </configuration>
             </execution>
