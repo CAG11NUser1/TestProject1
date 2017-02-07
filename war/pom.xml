@@ -626,7 +626,7 @@ THE SOFTWARE.
       <id>node-classifier-windows-x86</id>
       <activation><os><family>windows</family><arch>x86</arch></os></activation>
       <properties>
-        <node.download.file>win-x86/node.exe</node.download.file>
+        <node.download.file>node.exe</node.download.file>
         <node.download.classifier />
       </properties>
     </profile>
