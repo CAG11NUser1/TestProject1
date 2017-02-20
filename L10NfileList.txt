@@ -1,0 +1,7 @@
+core/src/main/resources/jenkins/management/Messages.properties
+core/src/main/resources/hudson/security/Messages.properties
+core/src/main/resources/jenkins/mvn/Messages.properties
+core/src/main/resources/hudson/model/Messages.properties
+core/src/main/resources/hudson/markup/Messages.properties
+core/src/main/resources/hudson\model/LoadStatistics/main.properties
+core/src/main/resourceshudson/node_monitors/Messages.properties
