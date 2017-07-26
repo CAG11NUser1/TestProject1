@@ -1,1 +1,4 @@
-test
+<root>
+  <value key="key1">Value 1</value>
+  <value key="key2">Value 2</value>
+</root>
