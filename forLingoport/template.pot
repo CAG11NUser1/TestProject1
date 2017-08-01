@@ -1,0 +1,8 @@
+#: app/views/agentcards.html
+msgid "Generate Report"
+msgstr "Generate Report_Translatable"
+
+#: app/scripts/controllers/HomeController.js
+#: app/scripts/controllers/MainController.js
+msgid "Help"
+msgstr "Help_Translatable"

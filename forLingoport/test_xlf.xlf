@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="test1.unv" source-language="en-US" target-language="ja-JP" datatype="x-universe">
+		<body>
+			<trans-unit id="universe:0:name">
+				<source>This is sentence 1</source>
+				<target state="translated" xmlns="">This is sentence 1_Translatable</target>
+			</trans-unit>
+			<trans-unit id="universe:0:description">
+				<source>This is sentence 2</source>
+				<target state="translated" xmlns="">This is sentence 2_Translatable</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
