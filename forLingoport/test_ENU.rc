@@ -1,0 +1,175 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\..\..\..\..\..\gui\Plugins\Common\CommonPluginRes_ENU\CommonPluginRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "EGCResource.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\CommonPluginRes.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""EGCResource.h""\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\CommonPluginRes_ENU.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#include ""ITRMVersionInfo.h""\r\n"
+    "#define PRODUCTDESC ITRMPRODUCTNAME "" Explorer Plugin Resource (ENU)""\r\n"
+    "#include ""cfVersion.rc2""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGIN               BITMAP                  "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\Login.bmp"
+IDB_JOINDOMAIN_WATERMARK BITMAP                  "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\JoinDomainWatermark.bmp"
+IDB_JOINDOMAIN_HEADER   BITMAP                  "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\JoinDomainHeader.bmp"
+IDB_COLUMNHEADER_SORTUP BITMAP                  "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\SortUp.bmp"
+IDB_COLUMNHEADER_SORTDOWN BITMAP                  "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\SortDown.bmp"
+IDB_CREATECOMPUTER_WATERMARK BITMAP                  "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\CreateComputerWatermark.bmp"
+IDB_CREATECOMPUTER_HEADER BITMAP                  "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\CreateComputerHeader.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ITRM                ICON                    "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\ITRM.ico"
+IDI_ERROR_X             ICON                    "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\errorx.ico"
+IDI_INFO                ICON                    "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\Information.ico"
+IDI_WARNING_X           ICON                    "..\\..\\..\\..\\..\\..\\gui\\Plugins\\Common\\CommonPluginRes_ENU\\Res\\Warning.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_SECURITYTEST MENU
+BEGIN
+    POPUP "SecurityTest_Translatable"
+    BEGIN
+        MENUITEM "%SECURITY%",                  9999
+    END
+END
+
+IDM_TEMPLATE_SECURITY MENU
+BEGIN
+    POPUP "0 - Tree/List"
+    BEGIN
+        POPUP "%SECURITY%"
+        BEGIN
+            MENUITEM "&Permissions..._Translatable",             ID_ITEMCMD_SECPERMISSIONS
+
+        END
+    END
+    POPUP "1 - App"
+    BEGIN
+        POPUP "%SECURITY%"
+        BEGIN
+            POPUP "&Security"
+            BEGIN
+                MENUITEM "&Security Profiles..._Translatable",       ID_ITEMCMD_SECGROUPS
+                MENUITEM "Security &Areas..._Translatable",          ID_ITEMCMD_SECAREAS
+                MENUITEM "&Permissions..._Translatable",             ID_ITEMCMD_SECPERMISSIONS
+
+            END
+        END
+    END
+END
+
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_INTELLISIG     ICON                    "..\\..\\..\\..\\..\\..\\gui\\plugins\\common\\CommonImageList\\zzzzzzzzzzzzz\\s_intellisig.ico"
+IDI_ICON_INTELLISIG_VERSION ICON                    "..\\..\\..\\..\\..\\..\\gui\\plugins\\common\\CommonImageList\\zzzzzzzzzzzzz\\s_intellisig_version.ico"
+#endif    // English (United Kingdom) resources
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "..\..\..\..\..\..\gui\Plugins\Common\CommonPluginRes_ENU\Res\CommonPluginRes_ENU.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+#include "ITRMVersionInfo.h"
+#define PRODUCTDESC ITRMPRODUCTNAME " Explorer Plugin Resource (ENU)"
+#include "cfVersion.rc2"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

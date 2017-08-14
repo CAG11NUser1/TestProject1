@@ -1,0 +1,200 @@
+<!-- Test Encoding=UTF-8; -->
+@username=%username%
+@smretries=0
+@smpasswordfcc=1
+
+<!-- Please set @smpwselfchange=1 to allow SecureURL enabled user initiated password change  -->
+@smpwselfchange=0
+
+<!-- Don't change the lines above -->
+
+<HTML>
+
+<HEAD>
+    <META http-equiv='Content-Type' content='text/html;charset=$$SMENC$$'>
+    <TITLE>Test Password Services_Translatable</TITLE>
+
+<!-- Cross-frame scripting prevention: This code will prevent this page from being encapsulated within HTML frames. Remove, or comment out, this code if the functionality that is contained in this test page is to be included within HTML frames. -->
+    <SCRIPT>  
+     if (top !=self) 
+     top.location=self.location; 
+    </SCRIPT>
+
+<SCRIPT language='JavaScript'>
+
+function searchKeyPress(e)
+{
+	// look for window.event in case event isn't passed in
+	if (typeof e == 'undefined' && window.event) { e = window.event; }
+	if (e.which || e.keyCode)
+	{
+		if ((e.which == 13) || (e.keyCode ==13))
+		{
+			document.getElementById('Enter').click();			
+		}
+	}		
+}
+
+
+function resetCredFields()
+{
+    
+    if ($$smauthreason$$ == 0 || $$smauthreason$$ == 4 || $$smauthreason$$ == 5 || $$smauthreason$$ == 28 || $$smauthreason$$ == 30 )
+    {
+        document.PWChange.PASSWORD.value = '';
+    }
+    else if ($$smauthreason$$ == 1 || $$smauthreason$$ == 18 || $$smauthreason$$ == 20 || $$smauthreason$$ == 22 || $$smauthreason$$ == 31 || $$smauthreason$$ == 34)
+    {
+        document.PWChange.NEWPASSWORD.value = '';
+        document.PWChange.CONFIRMATION.value = '';
+    }
+}
+
+// Function for Validating Forms
+function CheckForm(form)
+{
+	if ($$smauthreason$$ == 1 || $$smauthreason$$ == 18 || $$smauthreason$$ == 20 || $$smauthreason$$ == 21 || $$smauthreason$$ == 22 || $$smauthreason$$ == 31 || $$smauthreason$$ == 34)
+	{
+		
+	}
+	else if ($$smauthreason$$ == 0 || $$smauthreason$$ == 4 || $$smauthreason$$ == 5 || $$smauthreason$$ == 28 || $$smauthreason$$ == 30)
+	{
+		if ( form.username.value == "" ){
+				alert( "Please enter your username._Translatable" )
+				form.username.focus()
+				return false
+		}
+		else if ( form.PASSWORD.value == "" ){
+				alert( "Please enter your current Password._Translatable" )
+				form.PASSWORD.focus()
+				return false
+		}
+		else {
+				form.submit()
+				return	true
+		}
+
+	}
+	else if ($$smauthreason$$ == 29)
+	{
+	
+}
+
+function submitform ()
+{
+	if ($$smauthreason$$ == 18){
+		document.forms['PWChange'].elements['smauthreason'].value = 23
+		document.PWChange.submit();
+	}
+	else if ($$smauthreason$$ == 23 || $$smauthreason$$ == 32){
+		document.PWChange.submit()
+	}
+}
+
+function clearSubmit ()
+{
+	document.PWChange.PASSWORD.value = '';
+	document.PWChange.NEWPASSWORD.value = '';
+	document.PWChange.CONFIRMATION.value = '';
+	submitform();
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY bgcolor='#ffffff' text='#000000' onLoad = 'resetCredFields();'>
+
+<table width="100%">
+  <tr>
+    <td>&nbsp; </td>
+<IMG alt="Logo" src="/testagent/dmspages/CATechnologies_logo.png" height="44">
+  </tr>
+</table>
+
+<hr NOSHADE>
+<!-- Spacing table -->
+<div align="center"><center>
+
+<table width="100%" bgcolor="#FFFFFF" height="20">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+</center></div>
+
+<form name='PWChange' method='POST'>
+
+<div align="center"><center><table WIDTH="50%" HEIGHT="300" BGCOLOR="#FFEFD5">
+    
+        <TR> 
+            <TD>
+                <table WIDTH="100%" HEIGHT="300" BORDER="0" CELLSPACING="10" CELLPADDING="2" BGCOLOR="#FFEFD5">
+                   <TR ALIGN="CENTER" VALIGN="TOP">
+                    <TD ALIGN="TOP" VALIGN="CENTER" WIDTH="100%" height="5"></TD>
+                    </TR>
+                    
+                    <TR>
+                       <TH ALIGN="LEFT" VALIGN="CENTER" COLSPAN="6" NOWRAP WIDTH="100%" HEIGHT="50" BGCOLOR="#FFDAB9">   
+                       <FONT SIZE="+1" FACE="Arial,Helvetica"><B>
+                       
+                        <SCRIPT language='JavaScript'>
+                       	if ($$smauthreason$$ == 0 || $$smauthreason$$ == 4 || $$smauthreason$$ == 5)
+                            document.write("Login Request_Translatable");                       	
+                        else if ($$smauthreason$$ == 7  || $$smauthreason$$ == 21 || $$smauthreason$$ == 24 || $$smauthreason$$ == 25)
+                            document.write("Account Information");
+                        else if ($$smauthreason$$ == 18 || $$smauthreason$$ == 19 || $$smauthreason$$ == 20 || $$smauthreason$$ == 22 || $$smauthreason$$ == 34)	                       
+                            document.write("Password Change Request_Translatable");
+     			else if ($$smauthreason$$ == 1)
+			    document.write("Please Change Your Password_Translatable");
+			else if ($$smauthreason$$ == 23)
+			    document.write("Password Change Information_Translatable");
+			else if ($$smauthreason$$ == 28)
+			    document.write("Next Tokencode Request_Translatable");			
+			else if ($$smauthreason$$ == 29)
+			    document.write("New PIN Selection_Translatable");			
+			else if ($$smauthreason$$ == 30 || $$smauthreason$$ == 31 || $$smauthreason$$ == 32 )
+			    document.write("New PIN Assignment_Translatable");
+			else
+			    document.write("Diagnostic Information_Translatable");			
+			
+                        </SCRIPT>
+                        
+                        </FONT></B>
+                       </TH>    
+                      </TR>
+                        
+
+<SCRIPT language='JavaScript'>
+    //Auth Reason 0 - Reason none
+    //Auth Reason 4 - Session Expired
+    //Auth Reason 5 - AuthLevelTooLow
+    // Auth Reason 30 - Sm_Api_Reason_New_PIN_Sys_Tokencode 
+    if ($$smauthreason$$ == 0 || $$smauthreason$$ == 4 || $$smauthreason$$ == 5 || $$smauthreason$$ == 30)
+      {
+        document.write("<TR>");
+	document.write("    <TD width='5' HEIGHT='25'>");
+	document.write("    </TD>");
+	document.write("<TD bgColor='#ffefd5' colSpan='2' height='25' noWrap width='100%'>");
+      if ($$smauthreason$$ == 0)
+      	{
+	document.write("<font face='Arial, Helvetica'>Please enter your username and passcode._Translatable</font>");
+	}
+      else if ($$smauthreason$$ == 4)
+      	{
+	document.write("<font face='Arial, Helvetica'>Your session has expired. Please enter your username and passcode._Translatable</font>");
+	}
+	else if ($$smauthreason$$ == 5)
+      	{
+	document.write("<font face='Arial, Helvetica'>A higher Authorization Level is needed. Please enter your username and passcode._Translatable</font>");
+	}
+	else if ($$smauthreason$$ == 30)
+      	{
+	document.write("<font face='Arial, Helvetica'>To continue a new System-generated PIN is required._Translatable");
+	document.write("<p>Wait for the tokencode to change, then enter a PASSCODE <p> consisting of your current PIN followed by the tokencode._Translatable </font>");
+	</SCRIPT>
+	}
+
+</BODY>
+
+</HTML>

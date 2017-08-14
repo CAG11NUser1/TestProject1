@@ -1,0 +1,9 @@
+﻿{
+  "analytics": {
+
+    "ANALYTICS_ACTIVE_IDENTITY": "Identity Analytics_Translatable",
+    "ANALYTICS_GO_BUTTON": "Go!_Translatable",
+  },
+  "campaigns": {
+    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE": "Un-share your work_Translatable"
+  }

@@ -1,0 +1,7 @@
+{d "%w- %d %m-, %Y - %T"} - A "iappStationRoamedTo" This is sentece 2 {m}._Translatable
+
+This is Sentence 1._Translatable
+
+apNotificationDot11Station = {S 1}
+apNotificationDot11IpAddress = {O 2}
+(event [{e}])
