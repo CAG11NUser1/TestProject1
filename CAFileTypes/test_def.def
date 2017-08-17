@@ -1,0 +1,11 @@
+﻿[Keyboard]
+Type=MapListExt
+MaxLength=50
+Trans=yes
+Comment=Extendable keyboard layout list (refer to console-setup.config)_Translatable
+item=us "United States"
+item=gb "Great Britain"
+item=de "Germany"
+item=fr "France"
+;not supporting Japanese for 10.04
+;item=jp "Japan"

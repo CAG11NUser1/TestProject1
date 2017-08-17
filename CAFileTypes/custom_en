@@ -1,0 +1,30 @@
+# InstallAnywhere Localization File
+#
+# External strings for locale: English (en)
+# See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
+#     regarding mappings between the properties shown below and your InstallAnywhere
+#     project.
+#
+# External/Locale property names can take one of three forms:
+#     <ActionName>.<ReferenceID>.<ActionProperty>          (e.g., Installer.858175031081.productName)
+#     <ActionName>.<ReferenceID>.<ActionProperty>.<Index>  (e.g., Installer.858175031081.installLabels.01)
+#         - where the <ActionProperty> is a Vector and the <Index> represents the place within the
+#           Vector where the value of the property should be inserted
+#     _ia.<SomeProperty>                                   (e.g., _ia.MyCustomCodePanelProperty)
+#         - where <SomeProperty> is used as an identifier for a localized value by custom code
+#
+# External/Locale property values should be plain text strings.  Special or i18n characters
+#     that cannot be represented by ASCII characters should be written using escaped unicode.
+#     - see the utility 'native2ascii' distributed with your JDK
+#
+# Product Name: Test
+# Project File: test
+# Generated:    Mon Jan 28 13:21:57 IST 2013
+
+
+# ASCIIFileManipulator.02ebe3e1a710.additionalText=This is Sentence 1. 
+ASCIIFileManipulator.02ebe3e1a710.additionalText=This is Sentence 1. _Translatable
+
+# ASCIIFileManipulator.02ec3212a71f.additionalText=This is Sentence 2.
+ASCIIFileManipulator.02ec3212a71f.additionalText=This is Sentence 2. _Translatable
+

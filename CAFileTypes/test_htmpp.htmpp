@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<TITLE>Third Party Notices</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<SCRIPT language="javascript">
+<!--
+
+var clientType = "dumb";
+var borderSize = 0;
+var captionHeight = 0;
+
+function adjustSize()
+{
+	pad = 2 * (btnClose.parentElement.clientWidth - 
+			   (btnClose.offsetLeft + btnClose.offsetWidth));
+
+	
+	if (clientType == "dumb")
+	{
+		window.dialogHeight = String(230 + captionHeight + borderSize) + "px";
+		window.dialogWidth = String(405 + 2*borderSize) + "px";
+	}
+	else
+	{
+		window.dialogArguments.Snap(2,405,230);
+	}
+}
+
+//-->
+		</SCRIPT>
+		<SCRIPT language="javascript" id="clientEventHandlersJS">
+<!--
+
+
+function window_onload() 
+{
+	window.offscreenBuffering = false;
+	
+	borderSize				= window.dialogArguments.Arguments.BorderSize;
+	captionHeight			= window.dialogArguments.Arguments.CaptionHeight;
+	clientType				= window.dialogArguments.Arguments.HostType;
+
+	adjustSize();
+	
+	window.dialogArguments.SetTitle(document.title);
+}
+
+function btnClose_onclick() 
+{
+	window.close();
+}
+
+//-->
+		</SCRIPT>
+		<style> .page_button { FONT-SIZE: 12px; WIDTH: 100%; cursor: pointer; CURSOR: hand; COLOR: #000000; FONT-FAMILY: Arial; }
+		</style>
+	</head>
+	<body language="javascript" id="aboutbody" style="BORDER-TOP-WIDTH: 0pt; BORDER-LEFT-WIDTH: 0pt; BORDER-BOTTOM-WIDTH: 0pt; BACKGROUND-REPEAT: no-repeat; BORDER-RIGHT-WIDTH: 0pt"
+		bottomMargin="0" vLink="#346699" aLink="#346699" link="#346699" bgColor="white" leftMargin="0"
+		background="" topMargin="0" scroll="no" onload="return window_onload()" rightMargin="0">
+		<INPUT language="javascript" id="btnClose" class="page_button" style="LEFT: 336px; WIDTH: 50px; POSITION: absolute; TOP: 192px"
+			onclick="return btnClose_onclick()" type="submit" size="20" value="OK" name="btnClose">
+		<TABLE id="Table2" style="LEFT: 16px; WIDTH: 371px; POSITION: absolute; TOP: 16px; HEIGHT: 162px"
+			cellSpacing="1" cellPadding="7" width="368" border="2" rules="all" bgColor="white">
+			<TR>
+				<TD style="FONT-SIZE: 11px; FONT-FAMILY: Arial" vAlign="top">Test<BR>
+					<BR>
+					 Security contains:<BR>
+					- SmartFilter(TM) site control list from Secure Computing Corporation<BR>
+					- Regex++ library from Boost organization copyright 1998-2000,_Translatable
+					<BR>
+					&nbsp;&nbsp;Dr. John Maddock<BR>
+					Test_Translatable<BR>
+					- MD5 Message Digest Algorithm from RSA Data Security, Inc_Translatable<BR>
+					- Test._Translatable<BR>
+				</TD>
+			</TR>
+		</TABLE>
+	</body>
+</html>
