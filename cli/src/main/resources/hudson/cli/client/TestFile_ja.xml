@@ -1,0 +1,19 @@
+<?xml version=「1.0」エンコード"UTF-8"を =? &gt;
+<iclocalization>
+	<Service_Fulfillment_Region>
+		<title>Service Fulfillment status by Region</title>
+		<desc>Report on Service Fulfillment status by Region</desc>
+	</Service_Fulfillment_Region>
+	<Service_Provision>
+		<title>Service Provisioning</title>
+		<desc>Report on Service Provisioning</desc>
+	</Service_Provision>
+	<Service_Deactive>
+		<title>Services Cancelled and Deactivated</title>
+		<desc>Report on Cancellations and Deactivations</desc>
+	</Service_Deactive>
+    <Full_Reports>
+		<title>More Reports</title>
+		<desc>Full list of Fulfillment reports</desc>
+	</Full_Reports>		
+</iclocalization>
