@@ -1,0 +1,12 @@
+{
+  "login.dialog.redirecting": {
+    "id": "login.dialog.redirecting",
+    "description": "Redirecting keyword",
+    "defaultMessage": "REDIRECTING..."
+  },
+  "login.dialog.authenticate": {
+    "id": "login.dialog.authenticate",
+    "description": "Authenticate keyword",
+    "defaultMessage": "AUTHENTICATE"
+  }
+}
