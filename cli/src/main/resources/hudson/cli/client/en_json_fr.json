@@ -1,0 +1,12 @@
+{
+  "login.dialog.redirecting": {
+    "id": "lõõgîìn.dîìäãlõõg.rëëdîìrëëctîìng",
+    "description": "Réêdïíréêctïíng kéêywõörd",
+    "defaultMessage": "RÈDÍRÈCTÍNG..."
+  },
+  "login.dialog.authenticate": {
+    "id": "lóõgíìn.díìæælóõg.ææüüthéëntíìcæætéë",
+    "description": "Àýúthëëntíïcãætëë këëywóörd",
+    "defaultMessage": "ÆÙTHËNTÍCÆTË"
+  }
+}
