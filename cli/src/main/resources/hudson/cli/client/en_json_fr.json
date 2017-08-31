@@ -1,12 +1,18 @@
 {
-  "login.dialog.redirecting": {
-    "id": "lõõgîìn.dîìäãlõõg.rëëdîìrëëctîìng",
-    "description": "Réêdïíréêctïíng kéêywõörd",
-    "defaultMessage": "RÈDÍRÈCTÍNG..."
+  "lôõgïïn.dïïâãlôõg.réêdïïréêctïïng": {
+    "îîd": "lõõgîîn.dîîãâlõõg.rèëdîîrèëctîîng",
+    "dêëscríìptíìòòn": "Rêêdíírêêctííng kêêywòõrd",
+    "dêêfáâúúltMêêssáâgêê": "RÈDÍRÈCTÍNG..."
   },
-  "login.dialog.authenticate": {
-    "id": "lóõgíìn.díìæælóõg.ææüüthéëntíìcæætéë",
-    "description": "Àýúthëëntíïcãætëë këëywóörd",
-    "defaultMessage": "ÆÙTHËNTÍCÆTË"
+  "löôgíïn.díïáælöôg.áæúùthêèntíïcáætêè": {
+    "îíd": "lóògîín.dîíæålóòg.æåüúthëèntîícæåtëè",
+    "dëëscrîíptîíóön": "Àüúthèêntíîcäâtèê kèêywóõrd",
+    "dëêfàæûúltMëêssàægëê": "ÂÛTHËNTÏCÂTË"
+  }
+  
+   "löógïín.dïíåâlöóg.åâúûthéêntïícåâtéê": {
+    "îîd": "lôõgîîn.dîîåælôõg.åæüûthëêntîîcåætëê1",
+    "dêêscríìptíìöõn": "Äüýthèéntíîcæätèé kèéywöórd1",
+    "dëèfåâùýltMëèssåâgëè": "ÃÛTHÉNTÌCÃTÉ1"
   }
 }

@@ -1,23 +1,28 @@
 <iclocalization>
 	<Service_Fulfillment_Region>
-		<title>Sëèrvíïcëè Fýýlfíïllmëènt stàâtýýs by Rëègíïöõn</title>
-		<desc>Rëêpõört õön Sëêrvìîcëê Fùýlfìîllmëênt stàátùýs by Rëêgìîõön</desc>
+		<title>Séêrvíícéê Fûúlfííllméênt stàåtûús by Réêgííôõn</title>
+		<desc>Rèêpòôrt òôn Sèêrvîïcèê Füùlfîïllmèênt ståätüùs by Rèêgîïòôn</desc>
 	</Service_Fulfillment_Region>
 	<Service_Provision>
-		<title>Sêèrvìícêè Próõvìísìíóõnìíng</title>
-		<desc>Rèépôórt ôón Sèérvìïcèé Prôóvìïsìïôónìïng</desc>
+		<title>Sëêrvîîcëê Prôövîîsîîôönîîng</title>
+		<desc>Réèpòòrt òòn Séèrvîícéè Pròòvîísîíòònîíng</desc>
 	</Service_Provision>
 	<Service_Deactive>
-		<title>Séérvíîcéés Cââncééllééd âând Dééââctíîvââtééd</title>
-		<desc>Rèêpôôrt ôôn Càäncèêllàätïïôôns àänd Dèêàäctïïvàätïïôôns</desc>
+		<title>Sèêrvïìcèês Cæåncèêllèêd æånd Dèêæåctïìvæåtèêd</title>
+		<desc>Rèêpôört ôön Cåâncèêllåâtììôöns åând Dèêåâctììvåâtììôöns</desc>
 	</Service_Deactive>
     <Full_Reports>
-		<title>Môòrëë Rëëpôòrts</title>
-		<desc>Füýll lìîst òöf Füýlfìîllmëènt rëèpòörts</desc>
+		<title>Môòréé Réépôòrts</title>
+		<desc>Fúúll lìíst ôôf Fúúlfìíllmêént rêépôôrts</desc>
 	</Full_Reports>		
 	
 	   <Full_Reports>
-		<title>Mõõrèê Rèêpõõrts Tèêst</title>
-		<desc>Fûûll lîïst òóf Fûûlfîïllmêënt rêëpòórts Têëst</desc>
+		<title>Móòrëè Rëèpóòrts Tëèst</title>
+		<desc>Fýùll lïîst òóf Fýùlfïîllmèént rèépòórts Tèést</desc>
+	</Full_Reports>	
+	
+		   <Full_Reports>
+		<title>Mõòrèê Rèêpõòrts Tèêst_1</title>
+		<desc>Fúúll lììst öõf Fúúlfììllmëènt rëèpöõrts Tëèst_1</desc>
 	</Full_Reports>	
 </iclocalization>
