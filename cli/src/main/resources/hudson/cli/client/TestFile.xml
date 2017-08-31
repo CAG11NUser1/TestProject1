@@ -15,4 +15,9 @@
 		<title>More Reports</title>
 		<desc>Full list of Fulfillment reports</desc>
 	</Full_Reports>		
+	
+	   <Full_Reports>
+		<title>More Reports Test</title>
+		<desc>Full list of Fulfillment reports Test</desc>
+	</Full_Reports>	
 </iclocalization>
