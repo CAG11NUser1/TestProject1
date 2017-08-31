@@ -8,11 +8,17 @@
     "id": "login.dialog.authenticate",
     "description": "Authenticate keyword",
     "defaultMessage": "AUTHENTICATE"
-  }
+  },
   
    "login.dialog.authenticate": {
     "id": "login.dialog.authenticate1",
     "description": "Authenticate keyword1",
     "defaultMessage": "AUTHENTICATE1"
+  },
+
+   "login.dialog.authenticate": {
+    "id": "login.dialog.authenticate 2",
+    "description": "Authenticate keyword 2",
+    "defaultMessage": "AUTHENTICATE 2"
   }
 }
