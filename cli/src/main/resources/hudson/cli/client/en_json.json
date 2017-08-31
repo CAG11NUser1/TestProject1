@@ -9,4 +9,10 @@
     "description": "Authenticate keyword",
     "defaultMessage": "AUTHENTICATE"
   }
+  
+   "login.dialog.authenticate": {
+    "id": "login.dialog.authenticate1",
+    "description": "Authenticate keyword1",
+    "defaultMessage": "AUTHENTICATE1"
+  }
 }
