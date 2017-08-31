@@ -1,18 +1,24 @@
 {
-  "lôõgïïn.dïïâãlôõg.réêdïïréêctïïng": {
-    "îîd": "lõõgîîn.dîîãâlõõg.rèëdîîrèëctîîng",
-    "dêëscríìptíìòòn": "Rêêdíírêêctííng kêêywòõrd",
-    "dêêfáâúúltMêêssáâgêê": "RÈDÍRÈCTÍNG..."
+  "login.dialog.redirecting": {
+    "id": "lõögïìn.dïìæàlõög.rèédïìrèéctïìng",
+    "description": "Rëëdíírëëctííng këëywöòrd",
+    "defaultMessage": "RÈDÍRÈCTÍNG..."
   },
-  "löôgíïn.díïáælöôg.áæúùthêèntíïcáætêè": {
-    "îíd": "lóògîín.dîíæålóòg.æåüúthëèntîícæåtëè",
-    "dëëscrîíptîíóön": "Àüúthèêntíîcäâtèê kèêywóõrd",
-    "dëêfàæûúltMëêssàægëê": "ÂÛTHËNTÏCÂTË"
-  }
+  "login.dialog.authenticate": {
+    "id": "lõõgíín.dííäãlõõg.äãúýthëêntíícäãtëê",
+    "description": "Áûúthëêntîícáátëê këêywõórd",
+    "defaultMessage": "ÄÚTHÊNTÌCÄTÊ"
+  },
   
-   "löógïín.dïíåâlöóg.åâúûthéêntïícåâtéê": {
-    "îîd": "lôõgîîn.dîîåælôõg.åæüûthëêntîîcåætëê1",
-    "dêêscríìptíìöõn": "Äüýthèéntíîcæätèé kèéywöórd1",
-    "dëèfåâùýltMëèssåâgëè": "ÃÛTHÉNTÌCÃTÉ1"
+   "login.dialog.authenticate": {
+    "id": "lôögîîn.dîîáàlôög.áàüúthêèntîîcáàtêè1",
+    "description": "Àúúthèêntïïcâàtèê kèêywôõrd1",
+    "defaultMessage": "ÅÛTHËNTÌCÅTË1"
+  },
+
+   "login.dialog.authenticate": {
+    "id": "lóõgïìn.dïìäàlóõg.äàýúthééntïìcäàtéé 2",
+    "description": "Åüùthèéntîìcåätèé kèéywóõrd 2",
+    "defaultMessage": "ÄÚTHÊNTÍCÄTÊ 2"
   }
 }
