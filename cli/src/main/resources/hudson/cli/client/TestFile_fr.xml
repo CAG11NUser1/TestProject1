@@ -1,18 +1,23 @@
 <iclocalization>
 	<Service_Fulfillment_Region>
-		<title>Service Fulfillment status by Region</title>
-		<desc>Report on Service Fulfillment status by Region</desc>
+		<title>Sëèrvíïcëè Fýýlfíïllmëènt stàâtýýs by Rëègíïöõn</title>
+		<desc>Rëêpõört õön Sëêrvìîcëê Fùýlfìîllmëênt stàátùýs by Rëêgìîõön</desc>
 	</Service_Fulfillment_Region>
 	<Service_Provision>
-		<title>Service Provisioning</title>
-		<desc>Report on Service Provisioning</desc>
+		<title>Sêèrvìícêè Próõvìísìíóõnìíng</title>
+		<desc>Rèépôórt ôón Sèérvìïcèé Prôóvìïsìïôónìïng</desc>
 	</Service_Provision>
 	<Service_Deactive>
-		<title>Services Cancelled and Deactivated</title>
-		<desc>Report on Cancellations and Deactivations</desc>
+		<title>Séérvíîcéés Cââncééllééd âând Dééââctíîvââtééd</title>
+		<desc>Rèêpôôrt ôôn Càäncèêllàätïïôôns àänd Dèêàäctïïvàätïïôôns</desc>
 	</Service_Deactive>
     <Full_Reports>
-		<title>More Reports</title>
-		<desc>Full list of Fulfillment reports</desc>
+		<title>Môòrëë Rëëpôòrts</title>
+		<desc>Füýll lìîst òöf Füýlfìîllmëènt rëèpòörts</desc>
 	</Full_Reports>		
+	
+	   <Full_Reports>
+		<title>Mõõrèê Rèêpõõrts Tèêst</title>
+		<desc>Fûûll lîïst òóf Fûûlfîïllmêënt rêëpòórts Têëst</desc>
+	</Full_Reports>	
 </iclocalization>
