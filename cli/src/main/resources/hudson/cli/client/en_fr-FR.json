@@ -1,0 +1,9 @@
+{
+  "analytics" : {
+    "ANALYTICS_ACTIVE_IDENTITY" : "Identité Analytics_Translatable",
+    "ANALYTICS_GO_BUTTON" : "Aller ! _Translatable"
+  },
+  "campaigns" : {
+    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "Annulez le partage votre work_Translatable"
+  }
+}
