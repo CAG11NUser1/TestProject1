@@ -1,0 +1,9 @@
+{
+  "analytics" : {
+    "ANALYTICS_ACTIVE_IDENTITY" : "アイデンティティ Analytics_Translatable",
+    "ANALYTICS_GO_BUTTON" : "行く! _Translatable"
+  },
+  "campaigns" : {
+    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "国連-共有あなたの work_Translatable"
+  }
+}
