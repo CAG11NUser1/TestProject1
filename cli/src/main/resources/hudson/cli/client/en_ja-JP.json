@@ -5,5 +5,8 @@
   },
   "campaigns" : {
     "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "国連-共有あなたの work_Translatable"
+  },
+  "campaigns" : {
+    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "未シェアあなたwork_Translatable 2"
   }
 }

@@ -5,5 +5,8 @@
   },
   "campaigns" : {
     "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "Annulez le partage votre work_Translatable"
+  },
+  "campaigns" : {
+    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "Un-part votre work_Translatable 2"
   }
 }
