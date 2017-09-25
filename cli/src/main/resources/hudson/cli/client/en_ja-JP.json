@@ -1,12 +1,12 @@
 {
   "analytics" : {
-    "ANALYTICS_ACTIVE_IDENTITY" : "アイデンティティ Analytics_Translatable",
-    "ANALYTICS_GO_BUTTON" : "行く! _Translatable"
+    "ANALYTICS_ACTIVE_IDENTITY" : "Í~déñ~títý~Áñál~ýtíc~s_T~ráñs~látá~blé",
+    "ANALYTICS_GO_BUTTON" : "G~ó¡_T~ráñs~látá~blé"
   },
   "campaigns" : {
-    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "国連-共有あなたの work_Translatable"
+    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "Ú~ñ-sh~áréý~óúrw~órk_~Tráñ~slát~áblé"
   },
   "campaigns" : {
-    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "未シェアあなたwork_Translatable 2"
+    "CAMPAIGNS_UNSHARE_MY_WORK_TITLE" : "Ú~ñ-s~háré~ýóúr~wórk~_Tr~áñsl~átáb~lé2"
   }
 }
